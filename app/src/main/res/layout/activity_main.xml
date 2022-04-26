@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/background"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/volumecontrol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:src="@drawable/ic_baseline_volume_up_24"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        android:layout_gravity="center">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:padding="10dp"
+                android:src="@drawable/innocent1"
+                android:id="@+id/bird"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Innocent Bird"
+                android:textSize="15dp"
+                android:layout_gravity="center"
+                android:textColor="@color/white"
+                android:id="@+id/textviewbird"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:padding="10dp"
+                android:src="@drawable/sprite1"
+                android:id="@+id/sprite1"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Enemy 1"
+                android:textSize="15dp"
+                android:layout_gravity="center"
+                android:textColor="@color/white"
+                android:id="@+id/textviewsprite1"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:padding="10dp"
+                android:src="@drawable/sprite2"
+                android:id="@+id/sprite2"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Enemy 2"
+                android:textSize="15dp"
+                android:layout_gravity="center"
+                android:textColor="@color/white"
+                android:id="@+id/textviewsprite2"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:padding="10dp"
+                android:src="@drawable/sprite3"
+                android:id="@+id/sprite3"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Enemy 3"
+                android:textSize="15dp"
+                android:layout_gravity="center"
+                android:textColor="@color/white"
+                android:id="@+id/textviewsprite3"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <ImageView
+                android:layout_marginTop="10dp"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:padding="10dp"
+                android:src="@drawable/coin6"
+                android:id="@+id/coins"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10 points"
+                android:textSize="15dp"
+                android:layout_gravity="center"
+                android:textColor="@color/white"
+                android:id="@+id/textviewcoin"
+                android:layout_marginTop="15dp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="500dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:textStyle="italic"
+
+        android:text="YOU HAVE TO DODGE THE BIRD TO REACH THE NEST FROM THE ENEMIES . YOU WILL GET COINS IN THE WAY HAVING 10 POINTS WITH HIGH SCORE YOU CAN REACH THE NEST"
+        />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:id="@+id/startgamebtn"
+        android:background="@drawable/background_btn"
+        android:text="Start Again"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+
+        />
+
+
+
+
+</LinearLayout>
